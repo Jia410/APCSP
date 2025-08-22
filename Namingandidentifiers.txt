@@ -1,0 +1,75 @@
+// Page 2
+// Number of Dogs
+4
+// Number Of Cats
+6
+// Number Of cow
+5
+// Total Number Of Animals
+4+6+5
+// Total Number Of Mammals
+4+6+5
+// Page 4
+let numberOfDogs = 6
+
+let numberOfCats = 5
+
+let numberOfTurtles = 2
+
+let numberOfHamsters = 1
+let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters
+
+let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
+// Page 5
+let numberOfDogs = 6 + 2
+
+let numberOfCats = 5 - 1
+
+let numberOfTurtles = 2 + 1
+
+let numberOfHamsters = 1 + 1
+
+let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters
+
+let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
+
+/*:
+ - Experiment: There are even more changes in the number of pets expected at the pet show.\
+To add new kinds of animals, add new lines of code that define new constants. (To add a new line of code, just click in a blank line in the area above and start typing.)
+
+Make the following additions:
+- Someone is bringing a pot-bellied pig (a mammal).
+- Someone is bringing a fish (not a mammal).
+- Someone is bringing a snake (definitely not a mammal).
+
+Next, learn about choosing names. 
+
+[Previous](@previous)  |  page 6 of 14  |  [Next: Choosing Good Names](@next)
+ */
+// Page 7
+let 🐶 = 8
+let 🐱 = 4
+let 🐹 = 2
+let 🐢 = 3
+let 🐍 = 1
+let 🐷 = 1
+let 🐟 = 1
+
+let totalNumberOfAnimals = 🐶 + 🐱 + 🐹 + 🐢 + 🐍 + 🐷 + 🐟
+
+let totalNumberOfMammals = 🐶 + 🐱 + 🐹 + 🐷
+// Page 10
+let numberOfTickets = 150
+let ticketPrice = 10
+let roomRentalFee=1000
+let posterCost = 40
+let totalTicketValue = numberOfTickets*ticketPrice
+let totalExpenses = roomRentalFee + ticketPrice
+let totalIncomeOfShow = totalTicketValue - totalExpenses
+// Page 12
+33
+// Page 14
+let orangePalletCount = 3
+let watermelonPalletcount = 2
+let orangepalletWeight = 100
+let watermelonpalletCweight = 200
