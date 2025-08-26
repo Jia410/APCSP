@@ -1,0 +1,14 @@
+//page3
+when the number of ant is higher,they cover the screen faster and make it look croweded
+when the ants move faster they spread out more quickly across the screen 
+if an ant wanders too far it looks like it is lost from the group 
+because of random numbers the result is different each time which makes is feel more like real ants
+//page4
+if the evaporation rate is high pheromone trails disappear quickly 
+if the deposit rate is high trails become stronger and last longer 
+with many ants the pheromones helps us understand the hidden structure of ant movement 
+//page5
+ants use two pheromnes:home pheromone to find the nest and food pheromone to find food 
+if the dedposit rate is high trils fade quikly so ants may explore more
+with multiple food sources the colony splits and follows differnt trails
+
