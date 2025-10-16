@@ -1,0 +1,113 @@
+page2//
+let yes = true
+yes
+let no = false
+no
+page3//
+let hundred = 100
+let tenTimesTen = 10 * 10
+let nineTimesTen = 9 * 10
+
+hundred == tenTimesTen
+hundred == nineTimesTen
+page4//
+2 < 4
+3 < 3
+2 > 4
+4 >= 4
+page5//
+let videoLength = 5
+
+if videoLength < 5 {
+    "If I blinked, I'd miss it!"
+}
+
+if videoLength >= 5 {
+    "That's lovely."
+}
+page6//
+let videoLength = 5
+
+if videoLength >= 5 {
+    "That's lovely."
+}
+
+if videoLength < 5 {
+    "If I blinked, I'd miss it."
+}
+page7//
+let anotherVideoLength = 75000
+if anotherVideoLength < 5 {
+    "If I blinked, I'd miss it."
+} else if anotherVideoLength > 50000 {
+    "This is too long for anyone."
+} else if anotherVideoLength > 500 {
+    "Don't worry, I know a good editor."
+} else {
+    "That was lovely."
+}
+page8//
+false || false
+true || false
+false || true
+true || true
+page10//
+let bandMemberCount = 6
+let candyCount = 79
+if candyCount % bandMemberCount == 0 {
+    "Rock on."
+} else {
+    "Everyone quits! This is unacceptable!"
+}
+page12//
+let a = 20
+let b = 30
+let c = 20
+
+// If a is equal to c, print "a and c are the same"
+
+// If a is less than b, print "b is ahead of a"
+
+// If b is greater than a, print "a is not winning against b"
+
+// If a is less than or equal to c, print "a is either losing to or tied with c"
+page13//
+let secretWord = "banana"
+let guess = "apple"
+
+if secretWord == guess {
+    print("Your guess is right.")
+}
+if secretWord != guess {
+    print("Your guess is wrong.")
+}
+page14//
+let gigDistance = 6
+
+if gigDistance > 20 {
+    print("I need something to read.")
+} else if gigDistance < 5 {
+    print("I'll meet you there.")
+} else if gigDistance > 100 {
+    print("Better find somebody else on bass.")
+} else {
+    print("You know me—I'm easy! Let's hop in the van.")
+}
+page15//
+func isLeapYear(_ year: Int) -> Bool {
+    // Is the year divisible by 4?
+    if number(year, isDivisibleBy: 4) {
+        return true
+    } else {
+        return false
+    }
+}
+
+// Should be true
+isLeapYear(2000)
+// Should be false
+isLeapYear(1900)
+// Should be true
+isLeapYear(2012)
+// Should be false
+isLeapYear(2017)
