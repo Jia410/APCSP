@@ -1,0 +1,67 @@
+//page2
+makePieChart()
+
+addWedge(withProportion: 0.15, color: .red)
+addWedge(withProportion: 0.35, color: .yellow)
+addWedge(withProportion: 0.4, color: .blue)
+addWedge(withProportion: 0.1, color: .gray)
+//page3
+makePieChart()
+
+addWedge(withProportion: 0.3, color: .purple)
+addWedge(withProportion: 0.15, color: .yellow)
+addWedge(withProportion: 0.2, color: .green)
+addWedge(withProportion: 0.35, color: .red)
+
+addKeyItem(withLabel: "Grapes", color: .purple)
+addKeyItem(withLabel: "Bananas", color: .yellow)
+addKeyItem(withLabel: "Limes", color: .green)
+addKeyItem(withLabel: "Strawberries", color: .red)
+//page5
+makeBarChart()
+
+addBar(withLength: 1, color: .yellow)
+addBar(withLength: 5, color: .green)
+addBar(withLength: 9, color: .red)
+addBar(withLength: 3, color: .purple)
+//page6
+makeBarChart()
+
+setYAxis(minimum: 0, maximum: 100)
+
+addBar(withLength: 60, color: .yellow)
+addBar(withLength: 83, color: .green)
+addBar(withLength: 45, color: .red)
+addBar(withLength: 17, color: .purple)
+
+addBarLabel("Bananas")
+addBarLabel("Limes")
+addBarLabel("Strawberries")
+addBarLabel("Grapes")
+//page8
+makePlot()
+
+addPointAt(x: 1, y: 2, color: .black)
+addPointAt(x: 3, y: 1, color: .black)
+addPointAt(x: 3, y: 4, color: .black)
+addPointAt(x: 2, y: 6, color: .black)
+addPointAt(x: 4, y: 5, color: .black)
+addPointAt(x: 7, y: 5, color: .black)
+addPointAt(x: 8, y: 2, color: .black)
+addPointAt(x: 10, y: 6, color: .black)
+addPointAt(x: 8, y: 9, color: .black)
+//page9
+makePlot()
+
+setXAxis(minimum: -10, maximum: 10)
+setYAxis(minimum: -10, maximum: 10)
+
+addPointAt(x: 1, y: 2, color: .black)
+addPointAt(x: 3, y: 1, color: .black)
+addPointAt(x: 3, y: 4, color: .black)
+addPointAt(x: 2, y: 6, color: .black)
+addPointAt(x: 4, y: 5, color: .black)
+addPointAt(x: 7, y: 5, color: .black)
+addPointAt(x: -8, y: 2, color: .black)
+addPointAt(x: 10, y: -6, color: .black)
+addPointAt(x: -8, y: -9, color: .black)
