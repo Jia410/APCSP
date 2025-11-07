@@ -1,0 +1,70 @@
+//page2
+unc responseTo(question: String) -> String {
+    
+    if question.hasPrefix("hello") {
+        return "Why, hello there"
+    } else if question.hasPrefix("where") {
+        return "To the North!"
+    } else {
+        return "That really depends"
+    }
+}
+
+responseTo(question: "hello there!")
+responseTo(question: "where should I go on holiday?")
+responseTo(question: "what is the capital of France?")
+//page3
+func responseTo(question: String) -> String {
+    
+    if question.hasPrefix("hello") {
+        return "Why, hello there"
+    } else {
+        return "That really depends"
+    }
+}
+
+responseTo(question: "Hello!")
+//page4
+unc responseTo(question: String) -> String {
+    
+    let lowerQuestion = question.lowercased()
+    print(lowerQuestion)
+    
+    if lowerQuestion.hasPrefix("where") {
+        return "To the North!"
+    } else if lowerQuestion == "where are the cookies?" {
+        return "In the cookie jar!"
+    } else {
+        return "That really depends"
+    }
+}
+responseTo(question: "Where are the cookies?")
+//page5
+func responseTo(question: String) -> String {
+    
+    let lowerQuestion = question.lowercased()
+    
+    if lowerQuestion == "where are the cookies?" {
+        return "In the cookie jar!"
+    } else if lowerQuestion.hasPrefix("where") {
+        return "To the North!"
+    } else {
+      
+        let defaultNumber = question.count % 2
+        
+        if defaultNumber == 0 {
+            return "That really depends"
+        } else {
+            return "Ask me again tomorrow"
+        }
+
+    }
+}
+responseTo(question: "Where are the cookies?")
+responseTo(question: "Can I have a cookie?")
+responseTo(question: "PLEASE can I have a cookie?")
+//page6
+responseTo(question: "Can I have a cookie?")
+responseTo(question: "CAN I HAVE A COOKIE?!?")
+responseTo(question: "Should I go?")
+//page7
